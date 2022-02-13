@@ -1,0 +1,57 @@
+@media screen and (max-width: 576px) {
+  .burger-nav {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(images/burger.png) no-repeat 98% center;
+    background-color: #404040;
+    cursor: pointer;
+  }
+  header {
+    .wrapper {
+      width: 100%;
+      padding: 0;
+    }
+    nav {
+      .mobile-hidden {
+        overflow: hidden;
+        background: #505050;
+        height: 0;
+        &.open {
+          height: auto;
+        }
+        a {
+          color: #fff;
+          padding: 10px;
+          border-bottom: 1px solid #404040;
+          display: block;
+          margin: 0;
+        }
+      }
+      .list {
+        margin: 0px 0px;
+      }
+    }
+  }
+
+  footer {
+    ul {
+      width: 98%;
+      text-align: center;
+    }
+  }
+  #home-menu {
+    li {
+      float: none;
+      width: 96%;
+      margin: 30px 2% !important;
+    }
+  }
+  #main-banner {
+    img {
+      position: relative;
+      width: 180%;
+      left: -40%;
+    }
+  }
+}
